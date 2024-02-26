@@ -10,6 +10,9 @@ flask-wtf = "*"
 python-dotenv = "*"
 jinja2 = "*"
 wtforms = "*"
+flask-bootstrap = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
 
 [dev-packages]
 pylint = "*"

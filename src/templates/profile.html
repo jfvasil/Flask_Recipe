@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    {% include 'nav.html' %}
+
+    <div class="container">
+        <h1>User Profile</h1>
+        <div class="user-info">
+            <h2>User Info</h2>
+            <!-- User info will go here -->
+        </div>
+        <div class="bookmarked-recipes">
+            <h2>Bookmarked Recipes</h2>
+            <!-- Bookmarked recipes will go here -->
+        </div>
+        <div class="shared-recipes">
+            <h2>Shared Recipes</h2>
+            <!-- Shared recipes will go here -->
+        </div>
+        <div class="user-comments">
+            <h2>User Comments</h2>
+            <!-- User comments will go here -->
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

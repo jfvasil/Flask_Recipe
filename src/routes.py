@@ -8,5 +8,12 @@ bp = Blueprint('main', __name__, url_prefix='/')
 
 @bp.route('/')
 def index():
-    return 'Hello World 3'
+    return render_template('index.html')
 
+@bp.route('/all_recipes')
+def all_recipes():
+    return render_template('all_recipes.html')
+
+@bp.route('/profile')
+def profile():
+    return render_template('profile.html')
